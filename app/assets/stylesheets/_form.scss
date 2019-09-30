@@ -1,0 +1,47 @@
+.form {
+  height:90px;
+  width:calc(100vw - 300px);
+  background-color:#dddddd;
+}
+
+.input-box {
+  float: left;
+  margin: 20px 155px 20px 40px;
+  height:50px;
+  width:calc(100vw - 505px);
+  background-color: white;
+  &__text {
+    position:absolute;
+    margin-left: 10px;
+    font-size: 16px;
+    color:#dddddd;
+    line-height: 50px;
+    list-style: none;
+    text-align: center;
+  }
+  &__image {
+    float: right;
+    margin-right: 10px;
+    line-height: 50px;
+    list-style: none;
+    text-align: center;
+  }
+}
+
+.contents__btn2{
+  color:black;
+  font-size:20px;
+}
+
+.submit-btn {
+  position:absolute;
+  width:100px;
+  height:50px;
+  background-color:#38AEF0;
+  color:white;
+  margin-top:20px;
+  line-height: 50px;
+  list-style: none;
+  text-align: center;
+  right: 40px;
+}

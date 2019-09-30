@@ -1,0 +1,42 @@
+.chat-side {
+  width:300px;
+  color:#FFFFFF;
+  float: left;
+  font-weight:bold;
+}
+
+.side-header {
+  background-color:#253141;
+  height:100px;
+  display:flex;
+  padding:0 20px;
+  &__box{
+    display:flex;
+    width:100%;
+    &__username{
+      font-size:16px;
+      line-height: 100px;
+      list-style: none;
+      text-align: center;
+    }
+    &__new-group{
+      position: absolute;
+      left:230px;
+      line-height: 100px;
+      list-style: none;
+      text-align: center;
+    }
+    &__edit-user{
+      position: absolute;
+      left:260px;
+      line-height: 100px;
+      list-style: none;
+      text-align: center;
+    }
+  }
+}
+
+.contents__btn1{
+  color:#dddddd;
+  font-size:20px;
+}
