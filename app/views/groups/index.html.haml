@@ -1,0 +1,21 @@
+.wrapper
+  = render 'shared/side_bar'
+
+  .chat-main
+    .main-header
+      .main-header__left-box
+        .main-header__left-box--current-group chat-groupname
+        .main-header__left-box--member-list Member :
+        .main-header__left-box--users users
+      .main-header__exit-btn Edit
+      
+  = render partial: 'tweet'
+
+  .form
+    .input-box
+      .input-box__text 
+        =placeholder = "message"
+      .input-box__image
+        =link_to " ", class: "contents__btn2" do
+          = fa_icon 'image'
+    .submit-btn Send
