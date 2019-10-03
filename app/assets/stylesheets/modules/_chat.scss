@@ -37,6 +37,7 @@
       line-height: 40px;
       margin-top: 28px;
       padding: 0 20px;
+      cursor: pointer;
       &__button {
         color: #38AEF0;
         text-decoration: none;
@@ -94,6 +95,7 @@
       &__image {
         font-size: 20px;
         line-height: 50px;
+        cursor: pointer;
       }
       .hidden {
         display: none;
@@ -108,6 +110,7 @@
       height: 50px;
       margin-left: 15px;
       padding: 0 30px;
+      cursor: pointer;
     }
   }
 }

@@ -20,15 +20,18 @@
       }
       .icon {
         color: #FFFFFF;
-        font-size: 20px;
+        font-size: 18px;
       }
     }
   }
 
   .groups {
+    position: absolute;
     background-color: #2F3E51;
     height: calc(100vh - 100px);
+    width: 260px;
     padding: 0 20px;
+    overflow-y: auto;
     .group {
       box-sizing: border-box;
       padding: 20px 0 40px;
@@ -47,4 +50,9 @@
 
 .wrapper {
    float: left;
+   text-decoration: none;
+}
+
+.groups::-webkit-scrollbar {
+  display: none;
 }
