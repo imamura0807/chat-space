@@ -46,6 +46,7 @@
   }
 
   .messages {
+    overflow-y: auto;
     background-color: #FAFAFA;
     box-sizing: border-box;
     padding: 46px 40px 0;
@@ -73,6 +74,10 @@
         }
       }
     }
+  }
+
+  .messages::-webkit-scrollbar {
+    display: none;
   }
 
   .form {
