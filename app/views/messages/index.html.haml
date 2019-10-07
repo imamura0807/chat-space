@@ -16,7 +16,7 @@
             #{i}
         
     .right-header
-      = link_to "Edit", new_group_path, class: 'right-header__button' 
+      = link_to "Edit", edit_group_path(@group.id), class: 'right-header__button' 
 
   .messages
     = render @messages
